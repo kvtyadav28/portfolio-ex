@@ -148,12 +148,24 @@ span{
 li{
     list-style: none;
 }
+.link1{
+    color: wheat;
+}
+
+.link2{
+    color: wheat;
+}
 
 .hobbies{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 50px;
+}
+.title{
+    grid-column-start: 1;
+    grid-column-end: 4;
     padding-bottom: 50px;
 }
 
